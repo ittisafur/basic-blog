@@ -1,0 +1,24 @@
+// Bulma
+@import "node_modules/bulma/bulma";
+
+hero.has-background {
+    position: relative;
+    overflow: hidden;
+}
+.hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 80vh;
+}
+.hero-background.is-transparent {
+    opacity: 0.3;
+}
+.height-modifier {
+    min-height: 80vh !important;
+}
+
+.detail_img {
+    width: 10%;
+}
